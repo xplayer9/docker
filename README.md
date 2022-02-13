@@ -66,3 +66,15 @@ services:
       timeout: 5s
       retries: 5
 ```
+
+## Execute sql in docker Postgres
+- Launch Postges CLI from docker desktop
+- Execute psql command: "psql -h localhost -U postgres"
+
+## psql commands experience
+- "\dt": show tables
+- "\ds": show sequence
+- ALTER TABLE users ALTER COLUMN id SET DEFAULT nextval('hibernate_sequence');
+
+
+
