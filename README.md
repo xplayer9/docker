@@ -3,6 +3,7 @@
 ## Spring Web Service
 - To declare skip maven test in pom file
 - In Eclipse, use Maven install to generate jar file
+- finalName to specify final jar file name
 
 ```Java
 <plugin>
@@ -12,6 +13,7 @@
         <skipTests>true</skipTests>
     </configuration>
 </plugin>
+<finalName>shopApp</finalName>
 ```
 
 ## Dockerfile
