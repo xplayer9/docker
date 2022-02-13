@@ -4,7 +4,7 @@
 - To declare skip maven test in pom file
 - In Eclipse, use Maven install to generate jar file
 
-```Java
+```Html
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
